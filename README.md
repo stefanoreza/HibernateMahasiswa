@@ -59,8 +59,6 @@ Contoh konfigurasi:
 </hibernate-configuration>
 ```
 
----
-
 ## Cara Menjalankan Aplikasi
 
 1. Start MySQL (via XAMPP / langsung service)
@@ -69,30 +67,6 @@ Contoh konfigurasi:
 4. Pastikan file `mysql-connector-j-x.x.x.jar` terdapat di Libraries
 5. Build project di NetBeans
 6. Jalankan aplikasi
-
----
-
-## 🛠 Troubleshooting
-
-### Error: `Session cannot be resolved`
-
-Solusi: Pastikan ada import
-
-```java
-import org.hibernate.Session;
-import org.hibernate.Transaction;
-```
-
----
-
-### Error: `Communications link failure`
-
-Solusi:
-
-* MySQL belum dinyalakan
-* Port MySQL bukan 3306
-* Database `db_mahasiswa` tidak ada
-* Username/password MySQL salah
 
 ---
 
@@ -106,3 +80,6 @@ Aplikasi ini dibuat sebagai latihan / tugas akademik untuk memahami:
 * Manajemen koneksi database melalui Session Hibernate
 
 ---
+
+## Author
+Stefano Reza S, 51422719

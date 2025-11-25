@@ -2,7 +2,7 @@
 
 Proyek ini merupakan aplikasi desktop berbasis Java Swing yang menggunakan Hibernate sebagai ORM untuk melakukan operasi CRUD (Create, Read, Update, Delete) pada data Mahasiswa di database MySQL.
 
-## ✨ Fitur Aplikasi
+## Fitur Aplikasi
 
 * Menampilkan seluruh data mahasiswa dalam JTable
 * Menambahkan data mahasiswa baru
@@ -14,7 +14,7 @@ Proyek ini merupakan aplikasi desktop berbasis Java Swing yang menggunakan Hiber
 
 ---
 
-## 🏛 Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 * Java JDK 8+
 * NetBeans IDE
@@ -25,7 +25,7 @@ Proyek ini merupakan aplikasi desktop berbasis Java Swing yang menggunakan Hiber
 
 ---
 
-## 🗄 Struktur Database
+## Struktur Database
 
 Database: `db_mahasiswa`
 Tabel: `mahasiswa`
